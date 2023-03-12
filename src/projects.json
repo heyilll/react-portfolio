@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "SolveMyBoredom",
+      "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+      "github": "https://github.com/heyilll/js-solvemyboredom",
+      "deployed": "https://heyilll.github.io/js-solvemyboredom/"
+    },
+    {
+      "id": 2,
+      "name": "WeatherBoard",
+      "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
+      "github": "https://github.com/heyilll/js-weatherboard",
+      "deployed": "https://heyilll.github.io/js-weatherboard/"
+    },
+    {
+      "id": 3,
+      "name": "Squidward",
+      "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
+      "github": "Cashier",
+      "deployed": "An Easter Island Head"
+    },
+    {
+      "id": 4,
+      "name": "Dexter",
+      "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
+      "github": "Boy Genius",
+      "deployed": "A Secret Laboratory"
+    }
+]
