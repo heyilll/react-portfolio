@@ -1,0 +1,23 @@
+.contact {
+    margin-top: 5vh;
+    width: 70%;
+}
+
+.cform {
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    display: flex;
+    margin-top: 5vh;
+    justify-content: center;
+}
+
+.bg-image {
+    background-image: url('https://source.unsplash.com/kKvQJ6rK6S4/660x1000');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card{
+    margin: 5vh 0 5vh 0;
+}

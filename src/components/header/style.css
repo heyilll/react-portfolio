@@ -1,10 +1,15 @@
 .header  {
     background-color :rgb(79, 79, 148);
     height: 15vh;
+    font-size: large;
+}
+
+.navbrand {
+    font-size: 35px;
 }
 
 .cont {
     display: flex;
     justify-content: space-between;
-    width: 70%;
+    width: 65%;
 }

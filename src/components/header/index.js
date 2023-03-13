@@ -6,7 +6,7 @@ function header() {
   return (
     <nav className='navbar flex sticky-top container-fluid header'>
       <div className=' justify-between mx-auto cont' >
-        <span className="navbar-brand ">Heil Park</span>
+        <span className="navbar-brand navbrand">Heil Park</span>
         <ul className="nav nav-pills ">
           <li className="nav-item">
             <NavLink

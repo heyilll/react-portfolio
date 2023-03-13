@@ -1,10 +1,11 @@
 import React from "react";
-import ProjectCard from "../ProjectCard";
-import projects from "../../projects.json"
+import ProjectCard from "../../ProjectCard";
+import projects from "../../../projects.json"
+import "./style.css"
 
 function ProjectGallery() {
   return (
-    <div>
+    <div className="main mx-auto">
       <h1>Project Gallery</h1>
       {projects.map(project => (
           <ProjectCard
