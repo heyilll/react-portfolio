@@ -8,7 +8,7 @@ function ProjectCard(props) {
         <img className="postcard-img" alt={props.name} src={props.image} />
       </div>
       <div className="postcard-text">
-        <h1 className="postcard-title">Project: <strong>{props.name}</strong></h1>
+        <h2 className="postcard-title">Project: <strong>{props.name}</strong></h2>
         <strong>Github link:</strong> <a href={props.github}>{props.github}</a>
         <strong>Deployed link:</strong> <a href={props.deployed}>{props.deployed}</a>
       </div>

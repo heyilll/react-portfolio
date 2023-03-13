@@ -1,15 +1,20 @@
 .header  {
-    background-color :rgb(79, 79, 148);
-    height: 15vh;
+    background-color: #1b308f5b !important;
+    /* height: 15vh;   */
+    /* padding: 15px; */
     font-size: large;
+    /* position:relative;
+    z-index: 5; */
 }
 
 .navbrand {
-    font-size: 35px;
+    font-size: 35px ;
+    color: black !important; 
+    /* background-color: black; */
 }
 
 .cont {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 90%;
 }

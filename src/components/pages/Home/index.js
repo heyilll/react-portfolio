@@ -3,11 +3,16 @@ import "./style.css";
 
 function Home() {
   return (
-    <div className="main mx-auto">
-      <h1>My Portfolio</h1>
-      <p>
-        Heil Park
-      </p>
+    <div className="bg ">
+      <div className="home mx-auto column">
+        <h1>Welcome to my Portfolio!</h1>
+        <div className="text col-6">
+          <p>
+            My name is Heil Park!
+          </p>
+        </div>
+        <div className="pimg col-6"></div>        
+      </div>
     </div>
   );
 }

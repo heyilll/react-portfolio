@@ -4,10 +4,10 @@ import "./style.css";
 
 function header() {
   return (
-    <nav className='navbar flex sticky-top container-fluid header'>
+    <nav className='navbar flex container-fluid header'>
       <div className=' justify-between mx-auto cont' >
         <span className="navbar-brand navbrand">Heil Park</span>
-        <ul className="nav nav-pills ">
+        <ul className="nav nav-pills justify-content-center">
           <li className="nav-item">
             <NavLink
               to="/"
@@ -36,10 +36,12 @@ function header() {
                 isActive ? 'nav-link active' : 'nav-link'
               }
             >
-              Project Gallery
+              Projects
             </NavLink>
           </li>
-          <li className="nav-item">
+        </ul>
+        <div>
+        <span className="navbar-brand">
             <NavLink
               to="contact"
               end
@@ -49,18 +51,8 @@ function header() {
             >
               Contact
             </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink
-              to="contact/learn"
-              className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-              }
-            >
-              Learn
-            </NavLink>
-          </li>
-        </ul>
+          </span>
+        </div>
       </div>
     </nav>
   );
