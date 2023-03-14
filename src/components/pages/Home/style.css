@@ -1,5 +1,5 @@
 body {
-    background-color: #f7f2f2 !important;
+    background-color: #4d9ce6 !important;
  
 }
  
@@ -23,13 +23,26 @@ body {
 
 .home h1 {
     color: #fff;
-    font-size: 4rem;
+    font-size: 8vh;
     padding-bottom: 5vh;
     font-weight: bold;
 }
 
 .home p {
     color: #fff;
-    font-size: 2rem;
+    font-size: 4vh;
 }
  
+@media (max-width: 576px) {
+    .home h1 {
+        color: #fff;
+        font-size: 6vh;
+        padding-bottom: 3vh;
+        font-weight: bold;
+    } 
+
+    .home p {
+        color: #fff;
+        font-size: 2vh;
+    }
+}

@@ -1,10 +1,9 @@
 .header  {
-    background-color: #1b308f5b !important;
-    /* height: 15vh;   */
-    /* padding: 15px; */
+  
+    background-color: transparent!important ;
+ 
     font-size: large;
-    /* position:relative;
-    z-index: 5; */
+ 
 }
 
 .navbrand {

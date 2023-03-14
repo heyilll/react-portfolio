@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
-import Learn from '../Learn';
 import "./style.css";
 
 function Contact(props) {
@@ -9,26 +7,15 @@ function Contact(props) {
       <div className='contact mx-auto'>
         <h1>Contact Me</h1>
         <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna.  
-        </p>
-        <Link to="learn" role="button" className="btn btn-link">
-          Learn More
-        </Link>
-        <Link to="contact" role="button" className="btn btn-link">
-          Learn Less
-        </Link>
-        <Routes>
-          <Route path="learn" element={<Learn />} />
-        </Routes>
+          Email: <a href='heilpark@me.com'>heilpark@me.com</a><br></br>
+          Github: <a href='https://github.com/heyilll'>https://github.com/heyilll</a><br></br>
+          LinkedIn: <a href='https://www.linkedin.com/in/heil-park/'>https://www.linkedin.com/in/heil-park/</a><br></br>
+
+        </p> 
       </div>
 
       <div className='cform container-fluid bottom'>
-        <div className="card border-0 rounded-3 shadow-lg overflow-hidden col-6">
+        <div className="card border-0 rounded-3 shadow-lg overflow-hidden col-10 col-md-6">
           <div className="card-body p-0 row">
             <div className="row g-0">
               <div className='col-sm-6 d-none d-sm-block bg-image'></div>
@@ -57,7 +44,7 @@ function Contact(props) {
                   </div>
 
                   <div className="d-grid">
-                    <button className="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
+                    <button className="btn btn-primary btn-lg" id="submitButton" type="submit">Submit</button>
                   </div>
                 </form>
               </div>

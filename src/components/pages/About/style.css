@@ -1,21 +1,20 @@
 body {
-    background-color: #f7f2f2 !important;
+    background-color: #7CC6FE !important;
 }
 
 .about {
     width: 65%;
     padding-top: 5vh;
+    display: flex;
 }
 
 .about h1 {
-    font-size: 4rem;
+    font-size: 8vh;
     font-weight: bold;
 }
 
 .text {
-    /* width: 65%; */
-    padding-top: 5vh;
-    font-size: 2rem;
+    font-size: 2vh;
 }
 
 .pimg {
@@ -23,6 +22,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 70vh;
+    height: 30vh;
     border: solid 5px #1371c9;
+}
+
+.acard {
+    border-radius: 10px;
+    margin: 2rem 0 1rem 0;
+    /* height: 20vh; */
+    background-color: #f7f2f2;
+}
+
+@media (min-width: 576px) {
+    .pimg {
+        height: 60vh;
+    }
+
+    .text {
+        font-size: 3vh;
+    }
 }

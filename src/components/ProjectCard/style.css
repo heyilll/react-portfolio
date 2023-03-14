@@ -51,4 +51,23 @@ a, a:hover {
   font-size: 1rem;
 }
  
- 
+@media (max-width: 576px) {
+  .postcard {
+    height: 40vh;
+    width: 100%;
+  }
+
+  .postcard-img {
+    height: 50%;
+    width: 100%;
+  }
+
+  .postcard-title {
+    font-size: 2vh;
+  }
+
+  .postcard-text {
+    padding: 1vh;
+    font-size: 0.75rem;
+  } 
+}
