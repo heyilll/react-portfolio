@@ -2,42 +2,42 @@
     {
       "id": 1,
       "name": "SolveMyBoredom",
-      "image": "../../imgs/p1.png",
+      "image": "/imgs/p1.png",
       "github": "https://github.com/heyilll/js-solvemyboredom",
       "deployed": "https://heyilll.github.io/js-solvemyboredom/"
     },
     {
       "id": 2,
       "name": "Bootstrap Portfolio",
-      "image": "../../imgs/p2.png",
+      "image": "/imgs/p2.png",
       "github": "https://github.com/heyilll/Bootstrap-Portfolio",
       "deployed": "https://heyilll.github.io/Bootstrap-Portfolio/"
     },
     {
       "id": 3,
       "name": "JS Code Quiz",
-      "image": "../../imgs/p3.png",
+      "image": "/imgs/p3.png",
       "github": "https://github.com/heyilll/js-code-quiz",
       "deployed": "https://heyilll.github.io/js-code-quiz/"
     },
     {
       "id": 4,
       "name": "WeatherBoard",
-      "image": "../../imgs/p4.png",
+      "image": "/imgs/p4.png",
       "github": "https://github.com/heyilll/js-weatherboard",
       "deployed": "https://heyilll.github.io/js-weatherboard/"
     },
     {
       "id": 5,
       "name": "Workday Scheduler",
-      "image": "../../imgs/p5.png",
+      "image": "/imgs/p5.png",
       "github": "https://github.com/heyilll/js-workday-scheduler",
       "deployed": "https://heyilll.github.io/js-workday-scheduler/"
     },
     {
       "id": 6,
       "name": "Password Generator",
-      "image": "../../imgs/p6.png",
+      "image": "/imgs/p6.png",
       "github": "https://github.com/heyilll/jspasswordgen",
       "deployed": "https://heyilll.github.io/jspasswordgen/"
     }

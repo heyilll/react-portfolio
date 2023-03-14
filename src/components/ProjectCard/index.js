@@ -4,7 +4,7 @@ import "./style.css";
 function ProjectCard(props) {
   return (
     <div className="postcard dark">
-      <img className="postcard-img" alt={props.name} src={props.image} />
+      <img className="postcard-img" alt={props.name} src={process.env.PUBLIC_URL + props.image} />
       <div className="postcard-text">
         <h2 className="postcard-title">Project: <strong>{props.name}</strong></h2>
         <strong>Github link:</strong> <a href={props.github}>{props.github}</a>
