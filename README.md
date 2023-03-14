@@ -38,8 +38,7 @@ My task was to create an online portfolio fully in React and Bootstrap. It shoul
   6. [ ] Contact
  
 ## <a id="usage"></a> Usage
-Go to the deployed application:
-* node index.js
+Go to the deployed application at: https://heyilll.github.io/react-portfolio/
 
 ## <a id="license"></a> License
 N/A
@@ -48,7 +47,7 @@ N/A
 N/A
  
 ## <a id="screenshot"></a> Screenshot
- 
+![Screenshot 2023-03-14 at 22-37-15 My Portfolio](https://user-images.githubusercontent.com/117127128/225159249-c4dc6fc4-9d6d-4d8d-89b6-0d21bbcac6d8.png) 
 
 ## <a id="questions"></a> Questions
 GitHub: My username is heyilll (https://github.com/heyilll)
