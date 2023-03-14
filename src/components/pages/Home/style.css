@@ -4,17 +4,20 @@ body {
 }
  
 .bg {
-    background-image: url(../../imgs/herobg-ecbfddc8.png);
+    background-image: url(../../../../public/imgs/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    /* width: 100vw; */
- 
+    height: 100vh; 
 }
 
 .home {
-    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding-top: 5vh;
 }
 
@@ -29,16 +32,4 @@ body {
     color: #fff;
     font-size: 2rem;
 }
-
-/* .text {
-    padding-top: 5vh;
-} */
-
-.pimg {
-    background-image: url("../../../../public/imgs/profile.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
-    border: solid 5px #1371c9;
-}
+ 

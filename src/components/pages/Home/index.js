@@ -4,15 +4,12 @@ import "./style.css";
 function Home() {
   return (
     <div className="bg ">
-      <div className="home mx-auto column">
-        <h1>Welcome to my Portfolio!</h1>
-        <div className="text col-6">
-          <p>
-            My name is Heil Park!
-          </p>
-        </div>
-        <div className="pimg col-6"></div>        
+      <div className="home mx-auto ">
+        <div className=""><h1>Welcome to my Portfolio!</h1></div>
+        <p>My name is Heil Park!</p>
+        <button>View</button>
       </div>
+      
     </div>
   );
 }

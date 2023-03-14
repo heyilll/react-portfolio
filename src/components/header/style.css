@@ -12,9 +12,4 @@
     color: black !important; 
     /* background-color: black; */
 }
-
-.cont {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-}
+ 
