@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.css";
 
-function Contact(props) {
+function Contact() {
   return (
     <div>
       <div className='contact mx-auto'>
